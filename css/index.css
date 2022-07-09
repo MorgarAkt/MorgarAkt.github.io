@@ -66,7 +66,8 @@ img {
 
 #replit {
   position: relative;
-  bottom: 0px;
+  top: 14vh;
+  left: 14.5vw;
   border: 0px;
   border-radius: 3%;
   aspect-ratio: 2;
