@@ -1,14 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
 :root {
-  --main-color: #282a36;
-  --pane-padding: 5px 42px;
+  --head-color: #282a36;
+  --real-body-color: #717593;
+}
+html {
+  height: 100%;
 }
 
 body {
-  background-color: var(--main-color);
+  background-color: var(--real-body-color);
+  margin: 0px;
 }
 
 img {
-    width: 20%;
-    aspect-ratio: 1;
-    border-radius: 50%;
+  position: relative;
+  aspect-ratio: 1;
+  width: 20%;
+  border-radius: 50%;
+}
+
+#head {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: fit-content;
+  background-color: var(--head-color);
+  font-family: "VT323", monospace;
+  text-align: center;
+  padding-top: 0;
+}
+
+#title {
+  position: relative;
+  font-size: 10vw;
+  color: white;
+}
+
+#replit {
+  position: relative;
+  bottom: 0px;
+  border: 0px;
+  border-radius: 3%;
+  aspect-ratio: 1.6;
+  width: 50%;
+  z-index: 100;
+}
+
+#replit_div {
+  position: relative;
+  background-color: var(--real-body-color);
+  top: 10%;
 }
