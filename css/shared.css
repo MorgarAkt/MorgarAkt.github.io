@@ -1,11 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
 :root {
-  --head-color: #64BDAA;
-  /*  #282a36;*/
-  --real-body-color: #BD9080;
-  /* #717593;*/
+  --head-color: #97DECF;
+  --real-body-color: #DE9176;
+  --a:#DEDA6A;
+  --b:#DEDB81;
+  --c:#8D6DBD;
 }
+
+::-webkit-scrollbar{
+  width: 1vw;
+  background-color: var(--real-body-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--c);
+}
+
+
 html {
   height: 100%;
 }
@@ -20,26 +32,21 @@ img {
   image-rendering: pixelated;
   aspect-ratio: 1;
   width: 20%;
+  left: -1vw;
   border-radius: 50%;
-  border-style:double;
+  border-style: double;
   border-width: 2vw;
-  border-color: #825BBD;
-}
-
-#title .span {
-  position: absolute;
-  top: 5px;
+  border-color: #825bbd;
 }
 
 #head {
   position: absolute;
   top: 0;
   width: 100%;
-  height: fit-content;
+  height: 100%;
   background-color: var(--head-color);
   font-family: "VT323", monospace;
   text-align: center;
-  padding-top: 0;
 }
 
 #title {

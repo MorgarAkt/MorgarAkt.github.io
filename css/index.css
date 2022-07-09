@@ -1,0 +1,9 @@
+#myName {
+    position: relative;
+    top: 3vw;
+    left: 2vw;
+    text-shadow: 0 0 0.1vw black;
+    color: white;
+    font-size: 9vw;
+    text-align: center;
+  }
