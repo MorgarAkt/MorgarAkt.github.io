@@ -1,14 +1,3 @@
-img {
-  position: relative;
-  image-rendering: pixelated;
-  aspect-ratio: 1;
-  width: 30vw;
-  top: 20vh;
-  left: 10vw;
-  border-radius: 50%;
-  box-shadow: 0 0 3vw 0.0001vw rgba(0, 0, 0, 0.3);
-}
-
 #firstBox {
   position: absolute;
   top: 0px;
@@ -17,10 +6,27 @@ img {
   background-color: var(--a);
 }
 
+img {
+  position: relative;
+  image-rendering: pixelated;
+  aspect-ratio: 1;
+  width: 30vw;
+  top: 21vh;
+  left: 10vw;
+  border-radius: 50%;
+  box-shadow: 0 0 3vw 0.0001vw rgba(0, 0, 0, 0.3);
+}
+
+#allTexts {
+  position: absolute;
+  left: 0vw;
+  width: 50vw;
+}
+
 #hello {
   position: absolute;
-  top: 23vh;
-  left: 42.6vw;
+  top: 20vh;
+  left: 43vw;
   font-size: 12vw;
   text-align: left;
   font-family: var(--pixelFont);
@@ -29,8 +35,8 @@ img {
 }
 #myName {
   position: absolute;
-  top: 46vh;
-  left: 42.6vw;
+  top: 42vh;
+  left: 42vw;
   font-size: 9vw;
   text-align: left;
   font-family: var(--pixelFont);
@@ -40,8 +46,9 @@ img {
 
 #desc {
   position: absolute;
-  left: 44vw;
-  top: 33vw;
+  top: 60vh;
+  left: 43vw;
+  width: fit-content;
   font-size: 3vw;
   font-family: var(--pixelFont);
   text-shadow: 0 0 0.3vw var(--d);
