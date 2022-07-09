@@ -1,0 +1,14 @@
+:root {
+  --main-color: #282a36;
+  --pane-padding: 5px 42px;
+}
+
+body {
+  background-color: var(--main-color);
+}
+
+img {
+    width: 20%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
