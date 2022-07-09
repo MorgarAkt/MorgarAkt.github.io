@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
 :root {
-  --head-color: #282a36;
-  --real-body-color: #717593;
+  --head-color: #64BDAA;
+  /*  #282a36;*/
+  --real-body-color: #BD9080;
+  /* #717593;*/
 }
 html {
   height: 100%;
@@ -15,9 +17,18 @@ body {
 
 img {
   position: relative;
+  image-rendering: pixelated;
   aspect-ratio: 1;
   width: 20%;
   border-radius: 50%;
+  border-style:double;
+  border-width: 2vw;
+  border-color: #825BBD;
+}
+
+#title .span {
+  position: absolute;
+  top: 5px;
 }
 
 #head {
@@ -42,8 +53,8 @@ img {
   bottom: 0px;
   border: 0px;
   border-radius: 3%;
-  aspect-ratio: 1.6;
-  width: 50%;
+  aspect-ratio: 2;
+  width: 65%;
   z-index: 100;
 }
 
