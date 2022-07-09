@@ -6,8 +6,7 @@ img {
   top: 20vh;
   left: 10vw;
   border-radius: 50%;
-  border-width: 1.6vw;
-  border-color: var(--d);
+  box-shadow: 0 0 3vw 0.0001vw rgba(0, 0, 0, 0.3);
 }
 
 #firstBox {
@@ -18,14 +17,35 @@ img {
   background-color: var(--a);
 }
 
-#myName {
-  position: relative;
-  top: -5vh;
-  left: 18vw;
-  font-size: 10vw;
+#hello {
+  position: absolute;
+  top: 23vh;
+  left: 42.6vw;
+  font-size: 12vw;
+  text-align: left;
   font-family: var(--pixelFont);
   color: white;
   text-shadow: 0 0 0.3vw var(--d);
+}
+#myName {
+  position: absolute;
+  top: 46vh;
+  left: 42.6vw;
+  font-size: 9vw;
+  text-align: left;
+  font-family: var(--pixelFont);
+  color: white;
+  text-shadow: 0 0 0.3vw var(--d);
+}
+
+#desc {
+  position: absolute;
+  left: 44vw;
+  top: 33vw;
+  font-size: 3vw;
+  font-family: var(--pixelFont);
+  text-shadow: 0 0 0.3vw var(--d);
+  color: white;
 }
 
 #secondBox {
@@ -39,7 +59,7 @@ img {
 
 #replit {
   position: relative;
-  bottom: 0%;
+  bottom: 0px;
   border: 0px;
   border-radius: 3%;
   aspect-ratio: 2;
