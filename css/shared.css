@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
 :root {
-  --head-color: #97DECF;
-  --real-body-color: #DE9176;
-  --a:#DEDA6A;
-  --b:#DEDB81;
-  --c:#8D6DBD;
+  --head-color: #97decf;
+  --real-body-color: #de9176;
+  --a: #deda6a;
+  --b: #dedb81;
+  --c: #8d6dbd;
+  --d: #735999;
+  --pixelFont: "VT323", monospace;
 }
 
-::-webkit-scrollbar{
-  width: 1vw;
+::-webkit-scrollbar {
+  width: 0.9vw;
   background-color: var(--real-body-color);
 }
 
@@ -17,56 +19,21 @@
   background: var(--c);
 }
 
+::-webkit-scrollbar-thumb:hover {
+  background: var(--d);
+}
 
 html {
-  height: 100%;
+  margin: 0;
 }
 
 body {
-  background-color: var(--real-body-color);
-  margin: 0px;
+  margin: 0;
 }
 
-img {
-  position: relative;
-  image-rendering: pixelated;
-  aspect-ratio: 1;
-  width: 20%;
-  left: -1vw;
-  border-radius: 50%;
-  border-style: double;
-  border-width: 2vw;
-  border-color: #825bbd;
-}
-
-#head {
+#mother {
   position: absolute;
-  top: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--head-color);
-  font-family: "VT323", monospace;
-  text-align: center;
-}
-
-#title {
-  position: relative;
-  font-size: 10vw;
-  color: white;
-}
-
-#replit {
-  position: relative;
-  bottom: 0px;
-  border: 0px;
-  border-radius: 3%;
-  aspect-ratio: 2;
-  width: 65%;
-  z-index: 100;
-}
-
-#replit_div {
-  position: relative;
-  background-color: var(--real-body-color);
-  top: 10%;
+  margin: 0;
 }
