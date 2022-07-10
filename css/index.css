@@ -11,10 +11,18 @@ img {
   image-rendering: pixelated;
   aspect-ratio: 1;
   width: 30vw;
-  top: 21vh;
+  top: 20vh;
   left: 10vw;
   border-radius: 50%;
   box-shadow: 0 0 3vw 0.0001vw rgba(0, 0, 0, 0.3);
+  transition: ease all 0.1s;
+}
+
+@media (max-aspect-ratio: 16/9) {
+  img {
+    top: 26vh;
+    transition: ease all 0.1s;
+  }
 }
 
 #allTexts {
@@ -23,16 +31,33 @@ img {
   width: 50vw;
 }
 
+#hello:hover {
+  transition: ease all 0.7s;
+  transform: translateX(100px);
+}
+
+#myName:hover {
+  transition: ease all 0.7s;
+  transform: translateX(100px);
+}
+
+#desc:hover {
+  transition: ease all 0.7s;
+  transform: translateX(100px);
+}
+
 #hello {
   position: absolute;
   top: 20vh;
-  left: 43vw;
+  left: 42.6vw;
   font-size: 12vw;
   text-align: left;
   font-family: var(--pixelFont);
   color: white;
   text-shadow: 0 0 0.3vw var(--d);
+  transition: ease all 0.1s;
 }
+
 #myName {
   position: absolute;
   top: 42vh;
@@ -42,6 +67,7 @@ img {
   font-family: var(--pixelFont);
   color: white;
   text-shadow: 0 0 0.3vw var(--d);
+  transition: ease all 0.1s;
 }
 
 #desc {
@@ -53,6 +79,7 @@ img {
   font-family: var(--pixelFont);
   text-shadow: 0 0 0.3vw var(--d);
   color: white;
+  transition: ease all 0.1s;
 }
 
 #secondBox {
