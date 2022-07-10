@@ -64,6 +64,15 @@ img {
   height: 100vh;
 }
 
+#thirtBox {
+  position: absolute;
+  top: 200%;
+  width: 100%;
+  left: 0;
+  background-color: var(--head-color);
+  height: 100vh;
+}
+
 #replit {
   position: relative;
   top: 14vh;

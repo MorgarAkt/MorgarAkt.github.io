@@ -24,12 +24,13 @@
   background: var(--d);
 }
 
-html {
-  margin: 0;
-}
-
+html,
 body {
   margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 #mother {
@@ -37,4 +38,8 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+a {
+  transition: 1s;
 }
