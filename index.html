@@ -1,36 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Uygar,Akat" />
-    <title>Hello</title>
-    <link rel="stylesheet" href="./css/output.css" />
-    <link rel="stylesheet" href="./css/shared.css" />
-    <link rel="stylesheet" href="./css/index.css" />
-    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
-    <script src="./js/shared.js"></script>
-  </head>
-  <body>
-    <div id="mother">
-      <div id="firstBox">
-        <img src="./images/portrait.png" alt="portait" srcset="" />
-        <span id="position">
-          <span id="text1"> Hello, <br></span>
-          <span id="text2">
-            I'm Uygar Akat. <br />
-            A second year student at Kocaeli University.
-          </span>
-        </span>
-      </div>
-      <div id="secondBox"></div>
-      <div id="thirtBox">
-        <iframe
-          id="replit"
-          src="https://replit.com/@MorgarAkt/Turkish-Grammer-DetectionC?lite=true"
-        ></iframe>
-      </div>
-    </div>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Uygar,Akat" />
+        <title>Hello</title>
+        <link rel="stylesheet" href="./css/output.css" />
+        <link rel="stylesheet" href="./css/shared.css" />
+        <link rel="stylesheet" href="./css/index.css" />
+        <link
+            rel="shortcut icon"
+            href="./images/logo.png"
+            type="image/x-icon"
+        />
+        <script src="./js/shared.js"></script>
+    </head>
+    <body>
+        <div id="mother">
+            <div id="firstBox">
+                <img
+                    src="./images/portrait.png"
+                    alt="portait"
+                    srcset=""
+                    id="portrait"
+                />
+                <span id="position">
+                    <span id="text1"> Hello, <br /></span>
+                    <span id="text2">
+                        I'm Uygar Akat. <br />
+                        A second year student at Kocaeli University.
+                    </span>
+                </span>
+                <img
+                    onclick="location.href='#secondBox'"
+                    src="./images/downArrow.png"
+                    alt="downArrow"
+                    class="downArrow"
+                />
+            </div>
+            <div id="secondBox">
+                <img
+                    onclick="location.href='#secondBox'"
+                    src="./images/downArrow.png"
+                    alt="upArrow"
+                    class="upArrow"
+                />
+                <img
+                    onclick="location.href='#thirtBox'"
+                    src="./images/downArrow.png"
+                    alt="downArrow"
+                    class="downArrow"
+                />
+            </div>
+            <div id="thirtBox">
+                <iframe
+                    id="replit"
+                    src="https://replit.com/@MorgarAkt/Turkish-Grammer-DetectionC?lite=true"
+                ></iframe>
+                <img
+                    onclick="location.href='#secondBox'"
+                    src="./images/downArrow.png"
+                    alt="upArrow"
+                    class="upArrow"
+                />
+            </div>
+        </div>
+    </body>
 </html>

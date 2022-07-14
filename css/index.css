@@ -1,69 +1,121 @@
 #firstBox {
-  position: absolute;
-  top: 0px;
-  width: 100%;
-  height: 100vh;
-  background-color: var(--a);
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--a);
 }
 
-img {
-  position: relative;
-  image-rendering: pixelated;
-  aspect-ratio: 1;
-  width: 30vw;
-  top: calc(50vh - 15vw);
-  left: 10vw;
-  border-radius: 50%;
-  box-shadow: 0 0 3vw 0.0001vw rgba(0, 0, 0, 0.3);
+#portrait {
+    position: relative;
+    image-rendering: pixelated;
+    aspect-ratio: 1;
+    width: 30vw;
+    top: calc(50vh - 15vw);
+    left: 10vw;
+    border-radius: 50%;
+    box-shadow: 0 0 3vw 0.0001vw rgba(0, 0, 0, 0.3);
 }
 
 #position {
-  position: absolute;
-  left: 43vw;
-  top: calc(50vh - 14.8vw);
+    position: absolute;
+    left: 43vw;
+    top: calc(50vh - 14.8vw);
 }
 
 #text1 {
-  font-size: 12vw;
-  text-align: left;
-  font-family: var(--pixelFont);
-  color: white;
-  text-shadow: 0 0 0.3vw var(--d);
+    font-size: 12vw;
+    text-align: left;
+    font-family: var(--pixelFont);
+    color: white;
+    text-shadow: 0 0 0.3vw var(--d);
 }
 
 #text2 {
-  font-size: 5vw;
-  text-align: left;
-  font-family: var(--pixelFont);
-  color: white;
-  text-shadow: 0 0 0.3vw var(--d);
+    font-size: 5vw;
+    text-align: left;
+    font-family: var(--pixelFont);
+    color: white;
+    text-shadow: 0 0 0.3vw var(--d);
 }
 
 #secondBox {
-  position: absolute;
-  top: 100%;
-  width: 100%;
-  left: 0;
-  background-color: var(--real-body-color);
-  height: 100vh;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    background-color: var(--real-body-color);
+    height: 100vh;
 }
 
 #thirtBox {
-  position: absolute;
-  top: 200%;
-  width: 100%;
-  left: 0;
-  background-color: var(--head-color);
-  height: 100vh;
+    position: absolute;
+    top: 200%;
+    width: 100%;
+    left: 0;
+    background-color: var(--head-color);
+    height: 100vh;
 }
 
 #replit {
-  position: relative;
-  top: 14vh;
-  left: 14.5vw;
-  border: 0px;
-  border-radius: 3%;
-  aspect-ratio: 2;
-  width: 70%;
-  z-index: 100;
+    position: relative;
+    top: 14vh;
+    left: 14.5vw;
+    border: 0px;
+    border-radius: 3%;
+    aspect-ratio: 2;
+    width: 70%;
+    z-index: 100;
+}
+
+.upArrow {
+    transform: rotate(180);
+    position: inherit;
+    aspect-ratio: 1;
+    top: 6vh;
+    right: 5vw;
+    width: 5%;
+    animation: breathe 2s linear infinite;
+}
+
+.upArrow:hover {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.534));
+    animation-play-state: paused;
+}
+
+.downArrow {
+    position: inherit;
+    aspect-ratio: 1;
+    bottom: 6vh;
+    right: 5vw;
+    width: 5%;
+    animation: breathe 2s linear infinite;
+}
+
+.downArrow:hover {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.534));
+    animation-play-state: paused;
+}
+
+@keyframes breathe {
+    0% {
+        filter: drop-shadow(0 0 0 15px rgba(188, 237, 243, 0.3));
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    50% {
+        filter: drop-shadow(0 0 0 15px rgba(188, 237, 243, 0.3));
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    100% {
+        filter: drop-shadow(0 0 0 15px rgba(188, 237, 243, 0.3));
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
 }
