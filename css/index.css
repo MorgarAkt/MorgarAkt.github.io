@@ -17,61 +17,26 @@ img {
   box-shadow: 0 0 3vw 0.0001vw rgba(0, 0, 0, 0.3);
 }
 
-#allTexts {
+#position {
   position: absolute;
-  left: 0vw;
-  width: 50vw;
+  left: 43vw;
+  top: calc(50vh - 14.8vw);
 }
 
-#hello:hover {
-  transition: ease all 0.7s;
-  transform: translateX(80px);
-}
-
-#myName:hover {
-  transition: ease all 0.7s;
-  transform: translateX(80px);
-}
-
-#desc:hover {
-  transition: ease all 0.7s;
-  transform: translateX(80px);
-}
-
-#hello {
-  position: absolute;
-  top: 20vh;
-  left: 42.6vw;
+#text1 {
   font-size: 12vw;
   text-align: left;
   font-family: var(--pixelFont);
   color: white;
   text-shadow: 0 0 0.3vw var(--d);
-  transition: ease all 0.1s;
 }
 
-#myName {
-  position: absolute;
-  top: 42vh;
-  left: 42vw;
-  font-size: 9vw;
+#text2 {
+  font-size: 5vw;
   text-align: left;
   font-family: var(--pixelFont);
   color: white;
   text-shadow: 0 0 0.3vw var(--d);
-  transition: ease all 0.1s;
-}
-
-#desc {
-  position: absolute;
-  top: 60vh;
-  left: 43vw;
-  width: fit-content;
-  font-size: 3vw;
-  font-family: var(--pixelFont);
-  text-shadow: 0 0 0.3vw var(--d);
-  color: white;
-  transition: ease all 0.1s;
 }
 
 #secondBox {
