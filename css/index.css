@@ -1,4 +1,4 @@
-#firstBox {
+#hello {
     position: absolute;
     top: 0px;
     width: 100vw;
@@ -39,18 +39,38 @@
     text-shadow: 0 0 0.3vw var(--d);
 }
 
-#secondBox {
+#skills {
     position: absolute;
     top: 100%;
+    width: 100%;
+    left: 0;
+    background-color: var(--c);
+    height: 100vh;
+}
+
+#skillsTitle {
+  position: inherit;
+  font-family: var(--pixelFont);
+  top: 4vh;
+  left: 4vw;
+  font-size: 5vw;
+  color: white;
+  text-decoration: underline;
+}
+
+
+#projects {
+    position: absolute;
+    top: 200%;
     width: 100%;
     left: 0;
     background-color: var(--real-body-color);
     height: 100vh;
 }
 
-#thirtBox {
+#contact {
     position: absolute;
-    top: 200%;
+    top: 300%;
     width: 100%;
     left: 0;
     background-color: var(--head-color);
@@ -69,10 +89,9 @@
 }
 
 .upArrow {
-    transform: rotate(180);
     position: inherit;
     aspect-ratio: 1;
-    top: 6vh;
+    top: 4.2vh;
     right: 5vw;
     width: 5%;
     animation: breathe 2s linear infinite;
