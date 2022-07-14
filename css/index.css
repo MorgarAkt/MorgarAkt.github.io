@@ -11,18 +11,10 @@ img {
   image-rendering: pixelated;
   aspect-ratio: 1;
   width: 30vw;
-  top: 20vh;
+  top: calc(50vh - 15vw);
   left: 10vw;
   border-radius: 50%;
   box-shadow: 0 0 3vw 0.0001vw rgba(0, 0, 0, 0.3);
-  transition: ease all 0.1s;
-}
-
-@media (max-aspect-ratio: 16/9) {
-  img {
-    top: 26vh;
-    transition: ease all 0.1s;
-  }
 }
 
 #allTexts {
@@ -33,17 +25,17 @@ img {
 
 #hello:hover {
   transition: ease all 0.7s;
-  transform: translateX(100px);
+  transform: translateX(80px);
 }
 
 #myName:hover {
   transition: ease all 0.7s;
-  transform: translateX(100px);
+  transform: translateX(80px);
 }
 
 #desc:hover {
   transition: ease all 0.7s;
-  transform: translateX(100px);
+  transform: translateX(80px);
 }
 
 #hello {
