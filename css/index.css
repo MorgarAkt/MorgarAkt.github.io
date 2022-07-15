@@ -46,18 +46,94 @@
     left: 0;
     background-color: var(--c);
     height: 100vh;
+    z-index: -10;
+}
+
+#center {
+    position: inherit;
+    aspect-ratio: 1;
+    width: 10vw;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    left: 15vw;
+    top: calc(55vh - 5vw);
+    box-shadow: 0 0 1vw 0.0001vw rgba(0, 0, 0, 0.3);
+}
+
+#setCenter {
+    position: inherit;
+    top: calc(50% - 1vw);
+    left: 50%;
+}
+
+.lnmr {
+    position: inherit;
+    left: 6vw;
+    top: 0.2vw;
+}
+
+.lnml{
+    position: inherit;
+    left: 6vw;
+    top: 0.2vw;
+    transform: rotate(180deg);
+}
+
+.langName {
+    background-color: var(--a);
+    position: inherit;
+    height: 3vw;
+    width: 10vw;
+    border-radius: 10px;
+    font-family: var(--pixelFont);
+    color: white;
+    font-size: 1.8vw;
+    z-index: -1;
+    box-shadow: 0 0 3vw 0.0001vw rgba(0, 0, 0, 0.3);
+}
+
+.langName:nth-child(1) {
+    width: 23vw;
+}
+
+.langName:nth-child(2) {
+    width: 17vw;
+    position: inherit;
+    transform-origin: center left;
+    transform: rotate(72deg);
+}
+
+.langName:nth-child(3) {
+    width: 9vw;
+    position: inherit;
+    transform-origin: center left;
+    transform: rotate(144deg);
+}
+
+.langName:nth-child(4) {
+    width: 14vw;
+    position: inherit;
+    transform-origin: center left;
+    transform: rotate(216deg);
+}
+
+.langName:nth-child(5) {
+    width: 16vw;
+    position: inherit;
+    transform-origin: center left;
+    transform: rotate(288deg);
 }
 
 #skillsTitle {
-  position: inherit;
-  font-family: var(--pixelFont);
-  top: 4vh;
-  left: 4vw;
-  font-size: 7vw;
-  color: white;
-  text-decoration: underline;
+    position: inherit;
+    font-family: var(--pixelFont);
+    top: 4vh;
+    left: 4vw;
+    font-size: 7vw;
+    color: white;
+    text-decoration: underline;
+    text-shadow: 0 0 4vw 0.0001vw rgba(0, 0, 0, 0.3);
 }
-
 
 #projects {
     position: absolute;
@@ -77,17 +153,6 @@
     height: 100vh;
 }
 
-#replit {
-    position: relative;
-    top: 14vh;
-    left: 14.5vw;
-    border: 0px;
-    border-radius: 3%;
-    aspect-ratio: 2;
-    width: 70%;
-    z-index: 100;
-}
-
 .upArrow {
     position: inherit;
     aspect-ratio: 1;
@@ -96,11 +161,12 @@
     width: 5%;
     animation: breathe 2s linear infinite;
     image-rendering: pixelated;
-  }
+}
 
 .upArrow:hover {
     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.534));
     animation-play-state: paused;
+    cursor: pointer;
 }
 
 .downArrow {
@@ -116,6 +182,7 @@
 .downArrow:hover {
     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.534));
     animation-play-state: paused;
+    cursor: pointer;
 }
 
 @keyframes breathe {
