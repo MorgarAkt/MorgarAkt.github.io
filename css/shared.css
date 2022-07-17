@@ -1,27 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Oswald:wght@300&family=VT323&display=swap");
 :root {
-    --e: #ae6a47;
     --a: #caa05a;
     --b: #c9cca1;
     --c: #543344;
     --d: #515262;
+    --e: #ae6a47;
     --pixelFont: "VT323", monospace;
-    --coolFont: "Oswald", sans-serif;
-    --coolFont2: "Josefin Sans", sans-serif;
-
-    /*
-  --t: #2F3235;
-  --r: #62544D;
-  --e: #8C443F;
-  --w: #BE664C;
-  --q: #F49F58;
-  --d: #97decf;
-  --e: #de9176;
-  --a: #deda6a;
-  --b: #dedb81;
-  --c: #8d6dbd;
-  --d: #735999;
-  */
 }
 ::-webkit-scrollbar {
     width: 0.9vw;
@@ -29,11 +13,11 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--c);
-}
-
-::-webkit-scrollbar-thumb:hover {
     background: var(--d);
+    border-radius: 0.3vw;
+}
+::-webkit-scrollbar-track {
+    background-color: var(--e);
 }
 
 html,

@@ -16,7 +16,7 @@
     left: 8vw;
     border-radius: 50%;
     box-shadow: 0 0 3vw 0.0001vw rgb(84, 51, 68, 0.3);
-    border: 10px dashed var(--c);
+    border: 0.5vw dashed var(--c);
 }
 
 #position {
@@ -115,7 +115,7 @@
     font-family: var(--pixelFont);
     top: 6vh;
     left: 5vw;
-    font-size: 9vw;
+    font-size: 8.2vw;
     color: white;
     text-decoration: underline;
     text-shadow: 0 0 4vw 0.0001vw rgba(139, 139, 139, 0.3);
@@ -127,8 +127,66 @@
     top: 200vh;
     width: 100vw;
     left: 0;
-    background-color: var(--e);
+    background-color: var(--c);
     height: 100vh;
+}
+
+#projectsText {
+    position: relative;
+    top: 5vh;
+    left: 5vw;
+    font-family: var(--pixelFont);
+    font-size: 8.2vw;
+    text-decoration: underline;
+    color: white;
+}
+
+#projectBox {
+    position: inherit;
+    background-color: var(--a);
+    width: 75vw;
+    height: 60vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    top: 30vh;
+    left: 10vw;
+    font-size: 50px;
+    border-radius: 10px;
+    border: white solid 0.2vw;
+    box-shadow: 0 0 1vw 0.0001vw rgba(110, 110, 110, 0.3);
+}
+
+div.gallery {
+    top: 1.5vh;
+    left: 1.4vw;
+    position: relative;
+    margin: 1vw;
+    float: left;
+    height: 14vw;
+    width: 20vw;
+    background-color: var(--c);
+    font-size: 30px;
+    color: white;
+    font-family: var(--pixelFont);
+}
+
+div.gallery:hover {
+    background-color: #2c1b24;
+    cursor: pointer;
+}
+
+div.gallery img {
+    border-bottom: white solid 2px;
+    position: relative;
+    width: 20vw;
+    height: 11.25vw;
+}
+
+div.desc {
+    position: relative;
+    font-size: 1.5vw;
+    padding: 0px;
+    text-align: center;
 }
 
 /*Fourth page */
@@ -136,7 +194,7 @@
     position: absolute;
     top: 300vh;
     left: 0;
-    background-color: var(--c);
+    background-color: var(--d);
     width: 100vw;
     height: 100vh;
 }
@@ -146,10 +204,9 @@
     top: 5vh;
     left: 5vw;
     font-family: var(--pixelFont);
-    font-size: 9vw;
+    font-size: 8.2vw;
     text-decoration: underline;
     color: white;
-
 }
 
 #contactInnerbox {
