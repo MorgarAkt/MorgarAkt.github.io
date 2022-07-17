@@ -5,7 +5,6 @@
     width: 100vw;
     height: 100vh;
     background-color: var(--a);
-    z-index: 10000;
     max-height: 100%;
 }
 
@@ -51,7 +50,6 @@
     background-color: var(--d);
     width: 100vw;
     height: 100vh;
-    z-index: 1000;
     max-height: 100%;
 }
 
@@ -134,7 +132,6 @@
     left: 0;
     background-color: var(--e);
     height: 100vh;
-    z-index: 100;
     max-height: 100%;
 }
 
@@ -146,7 +143,6 @@
     left: 0;
     background-color: var(--c);
     height: 100vh;
-    z-index: 10;
     max-height: 100%;
 }
 
