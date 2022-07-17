@@ -65,8 +65,8 @@
 
 #setCenter {
     position: inherit;
-    top: 25%;
-    left: 5%;
+    top: 25vh;
+    left: 5vw;
 }
 
 .langText {
@@ -117,7 +117,7 @@
     font-family: var(--pixelFont);
     top: 6vh;
     left: 5vw;
-    font-size: 8vw;
+    font-size: 9vw;
     color: white;
     text-decoration: underline;
     text-shadow: 0 0 4vw 0.0001vw rgba(139, 139, 139, 0.3);
