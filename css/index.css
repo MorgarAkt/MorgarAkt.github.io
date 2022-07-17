@@ -49,6 +49,7 @@
     background-color: var(--d);
     width: 100vw;
     height: 100vh;
+    z-index: 10;
 }
 
 #center {
@@ -130,6 +131,7 @@
     left: 0;
     background-color: var(--e);
     height: 100vh;
+    z-index: 1;
 }
 
 /*Fourth page */
@@ -140,6 +142,27 @@
     left: 0;
     background-color: var(--c);
     height: 100vh;
+}
+
+#contactText {
+    position: relative;
+    top: 5vh;
+    left: 5vw;
+    font-family: var(--pixelFont);
+    font-size: 9vw;
+    text-decoration: underline;
+    color: white;
+
+}
+
+#contactInnerbox {
+    position: inherit;
+    background-color: var(--a);
+    width: 80vw;
+    height: 60vh;
+    top: 30vh;
+    left: 10vw;
+    border-radius: 10px;
 }
 
 /*Page changing buttons*/
