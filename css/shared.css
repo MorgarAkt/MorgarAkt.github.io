@@ -38,6 +38,8 @@
 
 html,
 body {
+    min-height: fill-available;
+    min-height: -webkit-fill-available;
     margin: 0;
     max-width: 100%;
     overflow-x: hidden;
