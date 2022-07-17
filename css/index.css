@@ -200,7 +200,7 @@ div.desc {
 }
 
 #contactText {
-    position: relative;
+    position: inherit;
     top: 5vh;
     left: 5vw;
     font-family: var(--pixelFont);
@@ -213,10 +213,71 @@ div.desc {
     position: inherit;
     background-color: var(--a);
     width: 80vw;
-    height: 60vh;
+    height: 55vh;
     top: 30vh;
     left: 10vw;
     border-radius: 10px;
+    padding: 1vw;
+}
+
+#name {
+    position: relative;
+    margin-top: 4vw;
+    border-radius: 0.3vw;
+    border: 0;
+    background-color: white;
+    left: 5%;
+    width: 80%;
+    height: 3vh;
+    font-size: 2vw;
+    color: black;
+    font-family: var(--pixelFont);
+    margin-bottom: 3vw;
+}
+
+#message {
+    position: relative;
+    top: 20%;
+    border-radius: 0.3vw;
+    border: 0;
+    background-color: white;
+    left: 5%;
+    width: 80%;
+    height: 15vh;
+    font-size: 2vw;
+    color: black;
+    font-family: var(--pixelFont);
+    margin-bottom: 3vw;
+}
+
+#email {
+    position: relative;
+    top: 10%;
+    border-radius: 0.3vw;
+    border: 0;
+    background-color: white;
+    left: 5%;
+    width: 80%;
+    height: 3vh;
+    font-size: 2vw;
+    color: black;
+    font-family: var(--pixelFont);
+    margin-bottom: 2.5vw;
+}
+
+#button {
+    position: relative;
+    border-radius: 0.3vw;
+    border: 0;
+    background-color: var(--d);
+    left: 79%;
+    width: 5vw;
+    height: 4.8vh;
+    font-size: 2vw;
+    border: 0.2vw solid white;
+    color: white;
+    font-family: var(--pixelFont);
+    margin: 0;
 }
 
 /*Page changing buttons*/
