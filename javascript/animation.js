@@ -1,0 +1,31 @@
+const skillBars = document.getElementsByClassName("langName");
+console.log(skillBars);
+
+function naber() {
+    skillBars[0].animate(resizeAnime("23vw"), timing);
+    skillBars[1].animate(resizeAnime("17vw"), timing);
+    skillBars[2].animate(resizeAnime("9vw"), timing);
+    skillBars[3].animate(resizeAnime("14vw"), timing);
+    skillBars[4].animate(resizeAnime("16vw"), timing);
+    setTimeout(function(){
+        skillBars[0].style.width = "23vw";
+        skillBars[1].style.width = "17vw";
+        skillBars[2].style.width = "9vw";
+        skillBars[3].style.width = "14vw";
+        skillBars[4].style.width = "16vw";
+    }, 1600);
+}
+
+if (saniye == 0) {
+    window.location.href = "/workingOn";
+    return;
+  }
+
+function resizeAnime(size) {
+    return { width: size };
+}
+
+const timing = {
+    duration: 1600,
+    iterations: 1,
+};

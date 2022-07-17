@@ -1,45 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Oswald:wght@300&family=VT323&display=swap");
 :root {
-  --head-color: #97decf;
-  --real-body-color: #de9176;
+    --e: #ae6a47;
+    --a: #caa05a;
+    --b: #c9cca1;
+    --c: #543344;
+    --d: #515262;
+    --pixelFont: "VT323", monospace;
+    --coolFont: "Oswald", sans-serif;
+    --coolFont2: "Josefin Sans", sans-serif;
+
+    /*
+  --t: #2F3235;
+  --r: #62544D;
+  --e: #8C443F;
+  --w: #BE664C;
+  --q: #F49F58;
+  --d: #97decf;
+  --e: #de9176;
   --a: #deda6a;
   --b: #dedb81;
   --c: #8d6dbd;
   --d: #735999;
-  --pixelFont: "VT323", monospace;
-  --coolFont: "Oswald", sans-serif;
-  --coolFont2: "Josefin Sans", sans-serif;
+  */
 }
-
 ::-webkit-scrollbar {
-  width: 0.9vw;
-  background-color: var(--real-body-color);
+    width: 0.9vw;
+    background-color: var(--e);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--c);
+    background: var(--c);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--d);
+    background: var(--d);
 }
 
 html,
 body {
-  margin: 0;
-  max-width: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  scroll-behavior: smooth
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
 }
 
 #mother {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
 
 a {
-  transition: 1s;
+    transition: 1s;
 }
