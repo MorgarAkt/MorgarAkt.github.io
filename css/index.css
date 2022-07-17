@@ -1,3 +1,4 @@
+/*First Page*/
 #hello {
     position: absolute;
     top: 0px;
@@ -40,12 +41,13 @@
     text-shadow: 0 0 2vw 0.1vw rgb(84, 51, 68, 0.3);
 }
 
+/*Second page */
 #skills {
     position: absolute;
     top: 100%;
     width: 100%;
+    background-color: var(--d);
     left: 0;
-    background-color: var(--c);
     height: 100vh;
     z-index: -10;
 }
@@ -63,21 +65,14 @@
 
 #setCenter {
     position: inherit;
-    top: calc(50% - 1vw);
-    left: 50%;
+    top: 25%;
+    left: 5%;
 }
 
-.lnmr {
+.langText {
     position: inherit;
-    left: 6vw;
-    top: 0.2vw;
-}
-
-.lnml {
-    position: inherit;
-    left: 6vw;
-    top: 0.2vw;
-    transform: rotate(180deg);
+    left: 2vw;
+    top: 0.5vw;
 }
 
 .langName {
@@ -94,48 +89,41 @@
 }
 
 .langName:nth-child(1) {
-    width: 14vw;
+    transform: translate(0, 10vh);
 }
 
 .langName:nth-child(2) {
-    width: 14vw;
     position: inherit;
-    transform-origin: center left;
-    transform: rotate(72deg);
+    transform: translate(0, 20vh);
 }
 
 .langName:nth-child(3) {
-    width: 14vw;
     position: inherit;
-    transform-origin: center left;
-    transform: rotate(144deg);
+    transform: translate(0, 30vh);
 }
 
 .langName:nth-child(4) {
-    width: 14vw;
     position: inherit;
-    transform-origin: center left;
-    transform: rotate(216deg);
+    transform: translate(0, 40vh);
 }
 
 .langName:nth-child(5) {
-    width: 14vw;
     position: inherit;
-    transform-origin: center left;
-    transform: rotate(288deg);
+    transform: translate(0, 50vh);
 }
 
 #skillsTitle {
     position: inherit;
     font-family: var(--pixelFont);
-    top: 4vh;
-    left: 4vw;
-    font-size: 7vw;
+    top: 6vh;
+    left: 5vw;
+    font-size: 8vw;
     color: white;
     text-decoration: underline;
     text-shadow: 0 0 4vw 0.0001vw rgba(139, 139, 139, 0.3);
 }
 
+/*Thirt page */
 #projects {
     position: absolute;
     top: 200%;
@@ -145,15 +133,17 @@
     height: 100vh;
 }
 
+/*Fourth page */
 #contact {
     position: absolute;
     top: 300%;
     width: 100%;
     left: 0;
-    background-color: var(--d);
+    background-color: var(--c);
     height: 100vh;
 }
 
+/*Page changing buttons*/
 .upArrow {
     position: inherit;
     aspect-ratio: 1;
