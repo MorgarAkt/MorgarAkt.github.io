@@ -5,6 +5,7 @@
     width: 100vw;
     height: 100vh;
     background-color: var(--a);
+    z-index: 10000;
 }
 
 #portrait {
@@ -49,7 +50,7 @@
     background-color: var(--d);
     width: 100vw;
     height: 100vh;
-    z-index: 10;
+    z-index: 1000;
 }
 
 #center {
@@ -131,7 +132,7 @@
     left: 0;
     background-color: var(--e);
     height: 100vh;
-    z-index: 1;
+    z-index: 100;
 }
 
 /*Fourth page */
@@ -142,6 +143,7 @@
     left: 0;
     background-color: var(--c);
     height: 100vh;
+    z-index: 10;
 }
 
 #contactText {
