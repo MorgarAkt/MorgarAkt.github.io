@@ -13,7 +13,8 @@
         <title>Hello</title>
         <link rel="stylesheet" href="./css/output.css" />
         <link rel="stylesheet" href="./css/shared.css" />
-        <link rel="stylesheet" href="./css/index.css" />
+        <link rel="stylesheet" href="./css/indexLand.css" />
+        <link rel="stylesheet" href="./css/indexPort.css" />
         <link
             rel="shortcut icon"
             href="./images/logo.png"
@@ -21,7 +22,8 @@
         />
     </head>
     <body>
-        <div id="mother">
+        <div id="port"></div>
+        <div id="land">
             <div id="hello">
                 <img
                     src="./images/portrait.png"
@@ -91,16 +93,18 @@
                         <div class="desc">C Turkish Grammer Detection</div>
                     </div>
 
-                    <div class="gallery">
-                        <a target="_blank" href="./images/logo.png">
-                            <img
-                                src="./images/project1.jpg"
-                                alt="Cinque Terre"
-                                width="600"
-                                height="400"
-                            />
-                        </a>
-                        <div class="desc">C Student Information System</div>
+                    <div class="galleryUp">
+                        <div class="gallery">
+                            <a target="_blank" href="./images/logo.png">
+                                <img
+                                    src="./images/project1.jpg"
+                                    alt="Cinque Terre"
+                                    width="600"
+                                    height="400"
+                                />
+                            </a>
+                            <div class="desc">C Student Information System</div>
+                        </div>
                     </div>
 
                     <div class="gallery">
@@ -140,7 +144,7 @@
                     </div>
                 </div>
                 <img
-                    onclick="location.href='#skills'"
+                    onclick="location.href='#skills', naber()"
                     src="./images/upArrow.png"
                     alt="upArrow"
                     class="upArrow"
@@ -187,7 +191,7 @@
                         <input
                             type="hidden"
                             name="_next"
-                            value="./mailSend.html"
+                            value="https://morgarakt.github.io/mailSend"
                         />
                         <input type="hidden" name="_captcha" value="false" />
                     </form>
