@@ -1,34 +1,27 @@
-#main {
+html,body {
+    margin: 0;
+    margin-bottom: 5vw;
+    overflow-y: visible;
     background-color: var(--a);
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
 }
 
-#goBack {
-    image-rendering: pixelated;
-    aspect-ratio: 1;
-    transform: rotate(270deg);
-    position: absolute;
-    right: 5vw;
-    bottom: 3vw;
-    width: 5vw;
-}
 #title {
+    padding: 2vw;
     position: relative;
     font-family: var(--pixelFont);
+    text-align: center;
     color: white;
-    left: 5vw;
-    top: 1vw;
-    font-size: 8vw;
+    font-size: 7vw;
     text-decoration: underline;
+    background-color: var(--d);
 }
+
 #project {
     position: relative;
-    left: 5vw;
-    top: 5vw;
+    left: 10vw;
+    top: 4vw;
     width: 80vw;
-    height: 60vh;
+    height: 70vh;
     border-radius: 20px;
+    background-color: white;
 }

@@ -1,3 +1,21 @@
+#land {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    top: 0;
+    left: 0;
+    visibility: visible;
+}
+
+html,
+body {
+    min-height: -webkit-fill-available;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
 /*First Page*/
 #hello {
     position: absolute;
@@ -237,6 +255,7 @@ div.desc {
     color: black;
     font-family: var(--pixelFont);
     margin-bottom: 3vw;
+    box-shadow: 0 0 2px 0.1px rgb(0, 0, 0, 0.5);
 }
 
 #message {
@@ -253,6 +272,7 @@ div.desc {
     font-family: var(--pixelFont);
     margin-bottom: 3vw;
     resize: none;
+    box-shadow: 0 0 2px 0.1px rgb(0, 0, 0, 0.5);
 }
 
 #email {
@@ -268,6 +288,7 @@ div.desc {
     color: black;
     font-family: var(--pixelFont);
     margin-bottom: 2.5vw;
+    box-shadow: 0 0 2px 0.1px rgb(0, 0, 0, 0.5);
 }
 
 #button {

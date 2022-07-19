@@ -13,8 +13,16 @@
         <title>Hello</title>
         <link rel="stylesheet" href="./css/output.css" />
         <link rel="stylesheet" href="./css/shared.css" />
-        <link rel="stylesheet" href="./css/indexLand.css" />
-        <link rel="stylesheet" href="./css/indexPort.css" />
+        <link
+            rel="stylesheet"
+            media="screen and (min-aspect-ratio: 3/4)"
+            href="./css/indexLand.css"
+        />
+        <link
+            rel="stylesheet"
+            media="screen and (max-aspect-ratio: 3/4)"
+            href="./css/indexPort.css"
+        />
         <link
             rel="shortcut icon"
             href="./images/logo.png"
@@ -22,7 +30,130 @@
         />
     </head>
     <body>
-        <div id="port"></div>
+        <!-- Portrait mode -->
+        <div id="port">
+            <div id="leftBar">
+                <img
+                    src="./images/portrait.png"
+                    alt="portait"
+                    srcset=""
+                    id="portrait"
+                />
+            </div>
+            <p id="aboutMe">
+                I am Uygar Akat. A second year student at Kocaeli University.
+            </p>
+
+            <div id="skills">
+                <div id="skillsTitle">My Skills</div>
+                <div id="setCenter">
+                    <div class="langName">
+                        <span class="langText">Python</span>
+                    </div>
+                    <div class="langName"><span class="langText">C</span></div>
+                    <div class="langName">
+                        <span class="langText">Lua</span>
+                    </div>
+                    <div class="langName">
+                        <span class="langText">Javascript</span>
+                    </div>
+                    <div class="langName">
+                        <span class="langText">Html/Css</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="rightBar">
+                <div id="projects">
+                    <span id="projectsText">My Projects</span>
+                    <div id="projectBox">
+                        <div class="gallery">
+                            <a
+                                href="/project1.html"
+                                rel="noopener noreferrer"
+                                target="_blank"
+                            >
+                                <img
+                                    src="./images/project1.jpg"
+                                    alt="Cinque Terre"
+                                    width="600"
+                                    height="400"
+                                />
+                            </a>
+                            <div class="desc">C Turkish Grammer Detection</div>
+                        </div>
+
+                        <div class="galleryUp">
+                            <div class="gallery">
+                                <a
+                                    href="/project1.html"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="./images/project2.jpg"
+                                        alt="Cinque Terre"
+                                        width="600"
+                                        height="400"
+                                    />
+                                </a>
+                                <div class="desc">
+                                    C Student Information System
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="contact">
+                    <span id="contactText">Contact Me</span>
+                    <div id="contactInnerbox">
+                        <form
+                            action="https://formsubmit.co/a1d7e92cdeab26b40aa6c77b727d0e87"
+                            method="POST"
+                        >
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder="Your Name"
+                                required
+                                id="name"
+                            />
+                            <br />
+                            <textarea
+                                rows="5"
+                                cols="60"
+                                name="message"
+                                placeholder="Print Your Message Here..."
+                                id="message"
+                            ></textarea>
+                            <br />
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="Your Mail"
+                                required
+                                id="email"
+                            />
+                            <br />
+                            <button type="submit" id="button">Send</button>
+                            <input
+                                type="hidden"
+                                name="_next"
+                                value="https://morgarakt.github.io/"
+                            />
+                            <input
+                                type="hidden"
+                                name="_captcha"
+                                value="false"
+                            />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Landscape mode -->
         <div id="land">
             <div id="hello">
                 <img
@@ -82,7 +213,11 @@
                 <span id="projectsText">My Projects</span>
                 <div id="projectBox">
                     <div class="gallery">
-                        <a target="_blank" href="./images/project1.jpg">
+                        <a
+                            href="/project1.html"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
                             <img
                                 src="./images/project1.jpg"
                                 alt="Cinque Terre"
@@ -95,9 +230,13 @@
 
                     <div class="galleryUp">
                         <div class="gallery">
-                            <a target="_blank" href="./images/logo.png">
+                            <a
+                                href="/project1.html"
+                                rel="noopener noreferrer"
+                                target="_blank"
+                            >
                                 <img
-                                    src="./images/project1.jpg"
+                                    src="./images/project2.jpg"
                                     alt="Cinque Terre"
                                     width="600"
                                     height="400"
@@ -105,42 +244,6 @@
                             </a>
                             <div class="desc">C Student Information System</div>
                         </div>
-                    </div>
-
-                    <div class="gallery">
-                        <a target="_blank" href="./images/logo.png">
-                            <img
-                                src="./images/project1.jpg"
-                                alt="Cinque Terre"
-                                width="600"
-                                height="400"
-                            />
-                        </a>
-                        <div class="desc">description</div>
-                    </div>
-
-                    <div class="gallery">
-                        <a target="_blank" href="./images/logo.png">
-                            <img
-                                src="./images/project1.jpg"
-                                alt="Cinque Terre"
-                                width="600"
-                                height="400"
-                            />
-                        </a>
-                        <div class="desc">C Student Information System</div>
-                    </div>
-
-                    <div class="gallery">
-                        <a target="_blank" href="./images/logo.png">
-                            <img
-                                src="./images/project1.jpg"
-                                alt="Cinque Terre"
-                                width="600"
-                                height="400"
-                            />
-                        </a>
-                        <div class="desc">description</div>
                     </div>
                 </div>
                 <img
@@ -191,7 +294,7 @@
                         <input
                             type="hidden"
                             name="_next"
-                            value="https://morgarakt.github.io/mailSend"
+                            value="https://morgarakt.github.io/"
                         />
                         <input type="hidden" name="_captcha" value="false" />
                     </form>

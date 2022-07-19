@@ -19,27 +19,17 @@
     background-color: var(--c);
 }
 
-html,
-body {
-    min-height: -webkit-fill-available;
-    margin: 0;
-    max-width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    scroll-behavior: smooth;
-}
-
 #land {
     width: 100vw;
     height: 100vh;
     margin: 0;
     top: 0;
     left: 0;
+    visibility: hidden;
 }
 
 #port {
     width: 100vw;
-    height: 100vh;
     margin: 0;
     top: 0;
     left: 0;
@@ -47,18 +37,3 @@ body {
     visibility: hidden;
 }
 
-@media (max-aspect-ratio: 3/4) {
-    #land {
-        visibility: hidden;
-    }
-
-    #port {
-        visibility: unset;
-    }
-
-    html,
-    body {
-        overflow-y: auto;
-        scroll-behavior: smooth;
-    }
-}
