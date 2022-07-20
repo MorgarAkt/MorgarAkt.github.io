@@ -20,7 +20,7 @@ body {
     left: 0;
     top: 0;
     width: 35vw;
-    height: 200vh;
+    height: 100vh;
     background-color: var(--a);
 }
 
@@ -28,8 +28,8 @@ body {
     position: absolute;
     left: 35vw;
     top: 0;
-    width: 130vw;
-    height: 200vh;
+    width: 100vw;
+    height: 100vh;
     background-color: var(--d);
 }
 
