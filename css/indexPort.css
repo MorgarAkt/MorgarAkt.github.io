@@ -22,15 +22,15 @@ body {
     left: 0;
     top: 0;
     width: 35vw;
-    height: 100vh;
+    height: 500vh;
     background-color: var(--a);
 }
 
 #rightBar {
     position: absolute;
-    right: 0;
+    left: 35vw;
     top: 0;
-    width: 65vw;
+    width: 200vw;
     height: 100vh;
     background-color: var(--d);
 }
@@ -168,7 +168,7 @@ body {
 #projectBox {
     position: inherit;
     background-color: var(--d);
-    width: 60vw;
+    width: 45vw;
     height: 22vh;
     overflow-y: auto;
     overflow-x: hidden;
