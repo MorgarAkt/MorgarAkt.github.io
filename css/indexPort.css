@@ -96,6 +96,7 @@ body {
     position: inherit;
     height: 3vw;
     width: 10vw;
+    border: 0;
     border-radius: 5px;
     font-family: var(--pixelFont);
     color: white;
