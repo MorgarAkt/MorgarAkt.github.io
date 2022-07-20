@@ -146,7 +146,7 @@ body {
 
 #projects {
     position: relative;
-    top: 10vh;
+    top: 7vh;
     width: 60vw;
     left: 10vw;
     background-color: var(--a);
@@ -209,12 +209,13 @@ div.desc {
     position: inherit;
     font-size: 1.5vw;
     padding: 0px;
+    top: -0.2vh;
     text-align: center;
 }
 
 #contact {
     position: relative;
-    top: 20vh;
+    top: 13vh;
     width: 60vw;
     left: 10vw;
     background-color: var(--a);
