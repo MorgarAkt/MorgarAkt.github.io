@@ -23,7 +23,7 @@ body {
     left: 0;
     top: 0;
     width: 35vw;
-    height: 105vh;
+    height: 130vh;
     background-color: var(--a);
 }
 
@@ -31,8 +31,8 @@ body {
     position: absolute;
     left: 35vw;
     top: 0;
-    width: 70vw;
-    height: 105vh;
+    width: 95vw;
+    height: 130vh;
     background-color: var(--d);
 }
 
