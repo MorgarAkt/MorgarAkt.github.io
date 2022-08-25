@@ -5,6 +5,7 @@ body {
     overflow-y: hidden;
     height: 100%;
     width: 100%;
+    text-decoration-skip-ink: none;
 }
 
 #port {
@@ -15,6 +16,8 @@ body {
     left: 0;
     background-color: black;
     visibility: visible;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+
 }
 
 /*First Page*/
@@ -25,6 +28,8 @@ body {
     width: 35vw;
     height: 130vh;
     background-color: var(--a);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+
 }
 
 #rightBar {
@@ -57,7 +62,8 @@ body {
     font-family: var(--pixelFont);
     color: white;
     width: 30%;
-    text-shadow: 0 0 2vw 0.1vw rgb(84, 51, 68, 0.3);
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
     word-wrap: break-word;
 }
 
@@ -102,6 +108,8 @@ body {
     font-family: var(--pixelFont);
     color: white;
     font-size: 1.8vw;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+
     /* box-shadow: 0 0 2px 0.1vw rgba(134, 134, 134, 0.082);*/
 }
 
@@ -142,7 +150,11 @@ body {
     font-size: 8.2vw;
     color: white;
     text-decoration: underline;
-    text-shadow: 0 0 4vw 0.0001vw rgba(139, 139, 139, 0.3);
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+        0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+        0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+        0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+        0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
 #projects {
@@ -153,6 +165,8 @@ body {
     background-color: var(--a);
     height: 30vh;
     border-radius: 2vw;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    
 }
 
 #projectsText {
@@ -163,7 +177,11 @@ body {
     font-size: 7vw;
     text-decoration: underline;
     color: white;
-    text-shadow: 0 0 5px 1px rgb(0, 0, 0, 0.5);
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+        0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+        0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+        0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+        0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
 #projectBox {
@@ -177,7 +195,8 @@ body {
     left: 5vw;
     font-size: 50px;
     border-radius: 2vw;
-    box-shadow: 0 0 5px 1px rgb(0, 0, 0, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+
 }
 
 div.gallery {
@@ -192,6 +211,7 @@ div.gallery {
     font-family: var(--pixelFont);
     border-radius: 5px;
     color: white;
+    
 }
 
 div.gallery:hover {
@@ -222,6 +242,8 @@ div.desc {
     background-color: var(--a);
     height: 40vh;
     border-radius: 2vw;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+
 }
 
 #contactText {
@@ -232,7 +254,11 @@ div.desc {
     font-size: 8.2vw;
     text-decoration: underline;
     color: white;
-    text-shadow: 0 0 5px 1px rgb(0, 0, 0, 0.5);
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+        0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+        0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+        0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+        0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
 #contactInnerbox {
@@ -243,6 +269,7 @@ div.desc {
     left: 0vw;
     border-radius: 10px;
     padding: 1vw;
+    
 }
 
 #name {
@@ -258,7 +285,8 @@ div.desc {
     color: black;
     font-family: var(--pixelFont);
     margin-bottom: 3vw;
-    box-shadow: 0 0 2px 0.1px rgb(0, 0, 0, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+
 }
 
 #message {
@@ -275,7 +303,7 @@ div.desc {
     font-family: var(--pixelFont);
     margin-bottom: 3vw;
     resize: none;
-    box-shadow: 0 0 2px 0.1px rgb(0, 0, 0, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
 
 #email {
@@ -291,7 +319,7 @@ div.desc {
     color: black;
     font-family: var(--pixelFont);
     margin-bottom: 2.5vw;
-    box-shadow: 0 0 2px 0.1px rgb(0, 0, 0, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
 
 #button {
@@ -308,4 +336,6 @@ div.desc {
     color: white;
     font-family: var(--pixelFont);
     margin: 0;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+
 }

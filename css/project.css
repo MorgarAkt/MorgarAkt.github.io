@@ -4,24 +4,11 @@ html,body {
     overflow-y: visible;
     background-color: var(--a);
 }
-
-#title {
-    padding: 2vw;
-    position: relative;
-    font-family: var(--pixelFont);
-    text-align: center;
-    color: white;
-    font-size: 7vw;
-    text-decoration: underline;
-    background-color: var(--d);
-}
-
 #project {
     position: relative;
-    left: 10vw;
-    top: 4vw;
-    width: 80vw;
-    height: 70vh;
-    border-radius: 20px;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
     background-color: white;
 }

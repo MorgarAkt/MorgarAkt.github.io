@@ -14,12 +14,14 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
     scroll-behavior: smooth;
+    text-decoration-skip-ink: none;
 }
 
 /*First Page*/
 #hello {
     position: absolute;
     top: 0px;
+    left: 00vw;
     width: 100vw;
     height: 100vh;
     background-color: var(--a);
@@ -29,9 +31,9 @@ body {
     position: relative;
     image-rendering: pixelated;
     aspect-ratio: 1;
-    width: 28vw;
-    top: calc(50vh - 14vw);
-    left: 8vw;
+    width: 24vw;
+    top: calc(50vh - 12vw);
+    left: 18vw;
     border-radius: 50%;
     box-shadow: 0 0 3vw 0.0001vw rgb(84, 51, 68, 0.3);
     border: 0.5vw dashed var(--c);
@@ -39,24 +41,30 @@ body {
 
 #position {
     position: absolute;
-    left: 43vw;
-    top: calc(50vh - 14.8vw);
+    left: 47vw;
+    top: calc(50vh - 11vw);
+    width: 35vw;
 }
 
 #text1 {
-    font-size: 12vw;
+    font-size: 8vw;
     text-align: left;
     font-family: var(--pixelFont);
     color: white;
-    text-shadow: 0 0 2vw 0.1vw rgb(84, 51, 68, 0.3);
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+        0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+        0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+        0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+        0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
 #text2 {
-    font-size: 5vw;
+    font-size: 3.5vw;
     text-align: left;
     font-family: var(--pixelFont);
     color: white;
-    text-shadow: 0 0 2vw 0.1vw rgb(84, 51, 68, 0.3);
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 /*Second page */
@@ -77,13 +85,13 @@ body {
     background-color: rgb(255, 255, 255);
     left: 15vw;
     top: calc(55vh - 5vw);
-    box-shadow: 0 0 1vw 0.0001vw rgba(0, 0, 0, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
 
 #setCenter {
     position: inherit;
     top: 25vh;
-    left: 5vw;
+    left: 10vw;
 }
 
 .langText {
@@ -132,11 +140,15 @@ body {
     position: inherit;
     font-family: var(--pixelFont);
     top: 6vh;
-    left: 5vw;
+    left: 10vw;
     font-size: 8.2vw;
     color: white;
     text-decoration: underline;
-    text-shadow: 0 0 4vw 0.0001vw rgba(139, 139, 139, 0.3);
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+        0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+        0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+        0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+        0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
 /*Thirt page */
@@ -152,31 +164,36 @@ body {
 #projectsText {
     position: relative;
     top: 5vh;
-    left: 5vw;
+    left: 10vw;
     font-family: var(--pixelFont);
     font-size: 8.2vw;
-    text-decoration: underline;
     color: white;
-    text-shadow: 0 0 5px 1px rgb(0, 0, 0, 0.5);
+    text-decoration: underline;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+        0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+        0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+        0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+        0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
 #projectBox {
     position: inherit;
     background-color: var(--d);
-    width: 80vw;
+    width: 70vw;
     height: 60vh;
     overflow-y: auto;
     overflow-x: hidden;
     top: 30vh;
-    left: 5vw;
+    left: 10vw;
     font-size: 50px;
     border-radius: 10px;
-    box-shadow: 0 0 5px 1px rgb(0, 0, 0, 0.5);
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
 
 div.gallery {
     top: 1.5vh;
-    left: 3vw;
+    left: 2vw;
     position: relative;
     margin: 1vw;
     float: left;
@@ -222,24 +239,28 @@ div.desc {
 #contactText {
     position: inherit;
     top: 5vh;
-    left: 5vw;
+    left: 10vw;
     font-family: var(--pixelFont);
     font-size: 8.2vw;
     text-decoration: underline;
     color: white;
-    text-shadow: 0 0 5px 1px rgb(0, 0, 0, 0.5);
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+        0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+        0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+        0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+        0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
 #contactInnerbox {
     position: inherit;
     background-color: var(--a);
-    width: 80vw;
+    width: 70vw;
     height: 60vh;
     top: 30vh;
-    left: 5vw;
+    left: 10vw;
     border-radius: 10px;
     padding: 1vw;
-    box-shadow: 0 0 5px 1px rgb(0, 0, 0, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
 
 #name {
@@ -249,7 +270,7 @@ div.desc {
     border: 0;
     background-color: white;
     left: 5%;
-    width: 80%;
+    width: 70%;
     height: 3vh;
     font-size: 2vw;
     color: black;
@@ -265,7 +286,7 @@ div.desc {
     border: 0;
     background-color: white;
     left: 5%;
-    width: 80%;
+    width: 70%;
     height: 15vh;
     font-size: 2vw;
     color: black;
@@ -282,7 +303,7 @@ div.desc {
     border: 0;
     background-color: white;
     left: 5%;
-    width: 80%;
+    width: 70%;
     height: 3vh;
     font-size: 2vw;
     color: black;
@@ -296,7 +317,7 @@ div.desc {
     border-radius: 0.3vw;
     border: 0;
     background-color: var(--d);
-    left: 79%;
+    left: 69%;
     width: 5vw;
     height: 4.8vh;
     font-size: 2vw;
@@ -345,21 +366,18 @@ div.desc {
 
 @keyframes breathe {
     0% {
-        filter: drop-shadow(0 0 0 15px rgba(188, 237, 243, 0.3));
         -webkit-transform: scale(0.9);
         -ms-transform: scale(0.9);
         transform: scale(0.9);
     }
 
     50% {
-        filter: drop-shadow(0 0 0 15px rgba(188, 237, 243, 0.3));
         -webkit-transform: scale(1);
         -ms-transform: scale(1);
         transform: scale(1);
     }
 
     100% {
-        filter: drop-shadow(0 0 0 15px rgba(188, 237, 243, 0.3));
         -webkit-transform: scale(0.9);
         -ms-transform: scale(0.9);
         transform: scale(0.9);

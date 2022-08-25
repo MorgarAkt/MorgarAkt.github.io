@@ -5,18 +5,23 @@
     --c: #515262;
     --d: #543344;
     --e: #ae6a47;
+    --back: #484957;
     --pixelFont: "VT323", monospace;
 }
 ::-webkit-scrollbar {
-    width: 0.9vw;
+    width: 0.8vw;
     background-color: var(--c);
+    border-radius: 0.2vw;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--e);
+    background: whitesmoke;
+    box-shadow: 2px black;
+    border-radius: 0.2vw;
 }
 ::-webkit-scrollbar-track {
     background-color: var(--c);
+    border-radius: 0.2vw;
 }
 
 #land {
